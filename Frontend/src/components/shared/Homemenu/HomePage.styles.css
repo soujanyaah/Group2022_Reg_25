@@ -1,0 +1,21 @@
+.menu-item {
+	height: 120px;
+	background-color: #252525;
+	text-decoration: none;
+	display: flex;
+	color: white;
+}
+
+.menu-link {
+	backface-visibility: hidden;
+	margin: auto;
+	text-decoration: none;
+	color: white;
+}
+
+.menu-link:hover {
+	backface-visibility: hidden;
+	color: white;
+	transform: scale(1.1);
+	transition: all 0.5s ease-out;
+}
